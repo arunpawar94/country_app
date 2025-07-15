@@ -5,7 +5,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "parcel src/index.html",
-    "build": "parcel build src/index.html"
+    "build": "parcel build src/index.html --dist-dir dist",
+    "postbuild": "copyfiles -u 1 public/_redirects dist"
   },
   "author": "Arun Pawar",
   "license": "ISC",
@@ -16,11 +17,12 @@
     "react-router-dom": "^6.23.1"
   },
   "devDependencies": {
+    "copyfiles": "^2.4.1",
     "parcel": "^2.15.4"
   },
   "targets": {
-  "default": {
-    "optimize": false
+    "default": {
+      "optimize": false
+    }
   }
-}
 }
