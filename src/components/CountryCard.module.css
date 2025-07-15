@@ -1,0 +1,31 @@
+.mainDiv {
+  padding: 10px;
+  border-radius: 12px;
+  box-shadow: 0px 0px 3px 0 black;
+  cursor: pointer;
+}
+.mainDiv:hover {
+  box-shadow: 0px 0px 7px 0 black;
+}
+.mainDivDark {
+  background: #302f2f;
+  color: white;
+}
+.detailDiv {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.flagImg {
+  width: 100%;
+  aspect-ratio: 3/2;
+}
+.nameText {
+  font-size: 28px;
+}
+.labelKey {
+  font-size: 22px;
+}
+.labelValue {
+  font-size: 18px;
+}

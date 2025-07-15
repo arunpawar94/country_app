@@ -1,0 +1,20 @@
+{
+  "name": "countryapp",
+  "version": "1.0.0",
+  "description": "creating country app to learn react",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel src/index.html"
+  },
+  "author": "Arun Pawar",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-router": "^6.23.1",
+    "react-router-dom": "^6.23.1"
+  },
+  "devDependencies": {
+    "parcel": "^2.15.4"
+  }
+}

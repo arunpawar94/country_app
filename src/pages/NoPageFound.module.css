@@ -1,0 +1,30 @@
+.mainDiv {
+  display: flex;
+  flex-direction: column;
+  padding: 50px 0;
+  gap: 20px;
+  align-items: center;
+}
+.mainDivDark {
+  background-color: #403e3e;
+  color: white;
+}
+.mainDiv span {
+  font-size: 30px;
+}
+.buttonLight {
+  cursor: pointer;
+  margin-bottom: 20px;
+  font-size: 22px;
+  padding: 5px 15px;
+  border-radius: 6px;
+  border: none;
+  box-shadow: 0px 2px 10px 0px #e6e1e1;
+}
+.buttonDark {
+  background-color: #403e3e;
+  color: white;
+}
+.codeSpan {
+  font-size: 100px !important;
+}

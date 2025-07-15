@@ -1,0 +1,55 @@
+.mainDiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  box-shadow: 0px 2px 10px 0px #e6e1e1;
+}
+.mainDivDark {
+  color: white;
+  background-color: #403e3e;
+  box-shadow: 0px 2px 20px 6px #625e5e;
+  position: relative;
+  z-index: 20;
+}
+.headerHeadingText {
+  font-size: 32px;
+  font-family: "calibri";
+}
+.themeText {
+  font-size: 16px;
+}
+.buttonStyle {
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background-color: #ebebef;
+}
+.buttonStyle:hover {
+  box-shadow: 0 0 4px 0 #adaaaa;
+}
+.buttonStyle div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 5px;
+}
+.buttonStyle div img {
+  width: 25px;
+  height: 25px;
+}
+@media screen and (max-width: 540px) {
+  .mainDiv {
+    padding: 10px;
+  }
+}
+@media screen and (max-width: 460px) {
+  .themeText {
+    display: none;
+  }
+}
+@media screen and (max-width: 370px) {
+  .headerHeadingText {
+  font-size: 22px;
+}
+}
