@@ -4,7 +4,8 @@
   "description": "creating country app to learn react",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "parcel src/index.html"
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html"
   },
   "author": "Arun Pawar",
   "license": "ISC",
@@ -16,5 +17,10 @@
   },
   "devDependencies": {
     "parcel": "^2.15.4"
+  },
+  "targets": {
+  "default": {
+    "optimize": false
   }
+}
 }
